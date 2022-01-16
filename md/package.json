@@ -1,0 +1,16 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "deploy": "npm run build && ssh almighty \"mkdir -p ~/public_html/NET/trace/\" && scp ./index.html almighty:~/public_html/NET/trace/ && ssh almighty \"chmod 755 ~/public_html/NET/trace/index.html\""
+  },
+  "keywords": [],
+  "author": "Peter Ferenc Gyarmati",
+  "license": "ISC",
+  "dependencies": {
+    "@shd101wyy/mume": "^0.6.9"
+  }
+}
