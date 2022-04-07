@@ -43,7 +43,7 @@ This will spawn a process which will trace the domains in `targets` every 10 min
 into `trace_runs.json`. If you feel like you gathered enough data, you can stop the process (very gracefully) by
 hitting: `Ctrl-C`.
 
-After this, you will have to fix he JSON file manually, by placing all the lists into a single list, and removing the
+After this, you will have to fix the JSON file manually, by placing all the lists into a single list, and removing the
 last trailing comma.
 
 ### Generating Graphs
